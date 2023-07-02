@@ -1,0 +1,212 @@
+@font-face {
+  font-family: "Antipasto Pro";
+  font-weight: 800;
+  font-style: normal;
+  src:local("Antipasto Pro Extra Bold"),
+      local("AntipastoPro-ExtraBold"),
+      url("shrift/AntipastoPro-ExtraBold.woff2") format("woff2"),
+      url("shrift/AntipastoPro-ExtraBold.woff") format("woff"),
+      url("shrift/AntipastoPro-ExtraBold.eot") format("eot");
+  font-display: swap;
+}
+::selection{
+  background: rgb(238, 126, 204);
+}
+body{
+  transition: 1.5s;
+  background-color: rgb(27, 27, 27);
+}
+.conteiner{
+  padding:0 calc(50% - 500px);
+}
+.header{
+  width: 1100px;
+}
+.main{
+  width: 1000px;
+}
+.name{
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 0px;
+  padding-top: 59px;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  color: #fff;
+}
+.button{
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-left: 50% ;
+}
+.but-1{
+  font-size: 25px;
+  color: rgb(75, 224, 224);
+  text-decoration: none;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  position: relative;
+  bottom: 80px;
+  
+}
+.but-2{
+  margin-left: 100px;
+  text-decoration: none;
+  color:#fff;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  position: relative;
+  bottom: 80px;
+}
+.but-2:hover{
+  color:rgb(253, 205, 48) ;
+
+}
+.but-3{
+  margin-left: 100px;
+  text-decoration: none;
+  color:#fff;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  position: relative;
+  bottom: 80px;
+}
+.but-3:hover{
+  color: rgb(160, 255, 136) ;
+
+}
+.but-4{
+  margin-left: 100px;
+  text-decoration: none;
+  color:black;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  position: relative;
+  bottom: 80px;
+}
+.but-4:hover{
+  color:rgb(75, 224, 224) ;
+
+}
+.gif{
+  text-align: center;
+}
+.before{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  border: 12px solid rgb(75, 224, 224);;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+IMG.imgleft {
+  float: left;
+  margin: 1px;
+  border-radius: 10px;
+  transform: translatey(47px);
+}
+.Zaglav{
+  color: #fff;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  background-color: rgb(250, 209, 75);
+  display: inline;
+  font-size: 30px;
+  margin: 33px;
+}
+.text-1{
+  color: #fff;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  display: block;
+  font-size: 1.36em;
+  padding: 25px;
+  transform: translatex(35px)
+}
+.before-2{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  border: 5px solid  rgb(243, 204, 74) ;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.Zaglav-2{
+  color: #fff;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  background-color: rgb(130, 248, 100);
+  display: inline;
+  font-size: 30px;
+  margin: 45px;
+}
+IMG.imgright {
+  float: right;
+  padding: 4px;
+  border-radius: 11px;
+  /* transform: translatey(-1px); */
+  position: relative;
+}
+.text-2{
+  color: #fff;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  display: block;
+  font-size: 1.30em;
+}
+.before-3{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  border: 5px solid  rgb(120, 243, 89) ;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.Zaglav-3{
+  color: #fff;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  background-color: rgb(252, 119, 119);
+  display: inline;
+  font-size: 30px;
+  margin: 33px;
+}
+.text-3{
+  color: #fff;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  display: block;
+  font-size: 1.31em;
+  padding: 20px;
+  transform: translatex(35px)
+}
+.before-4{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Antipasto Pro",sans-serif;
+  font-weight: 800;
+  border: 5px solid rgb(236, 85, 85) ;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+button{
+  float: right;
+  background-color: rgb(241, 169, 255); 
+  color: rgb(75, 224, 224);
+  border: none;
+  border-radius: 16px;
+  outline: none;
+  margin: 5px;
+}
+button:hover{
+  background: rgb(75, 224, 224);
+  color: black;
+}
